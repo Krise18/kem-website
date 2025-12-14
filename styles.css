@@ -164,6 +164,25 @@ a:hover {
   box-shadow: var(--shadow-blue);
 }
 
+.nav-cta-secondary {
+  background: transparent;
+  color: var(--white) !important;
+  padding: 0.6rem 1.25rem !important;
+  border-radius: 6px;
+  border: 2px solid var(--blue-primary);
+  font-weight: 600;
+}
+
+.nav-cta-secondary::after {
+  display: none !important;
+}
+
+.nav-cta-secondary:hover {
+  background: var(--blue-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-blue);
+}
+
 /* Mobile Menu Toggle */
 .nav-toggle {
   display: none;
